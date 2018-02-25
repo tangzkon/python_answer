@@ -1,0 +1,16 @@
+body{
+    background: #f3f3f3;
+}
+img{
+    width: 100px;
+    height: 20px;
+}
+.main_container{
+    width: 750px;
+    background: #fff;
+    overflow: hidden;
+    margin: 0 auto;
+}
+h3{
+    text-align: center;
+}

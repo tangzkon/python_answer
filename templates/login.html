@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}登录{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+{% endblock %}
+
+{% block main %}
+    <div class="login_div">
+    <h3>登录</h3>
+    <form action="" method="post">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="请输入手机号" name="telephone">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="请输入密码" name="password">
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">登录</button>
+        </div>
+    </form>
+    </div>
+{% endblock %}
